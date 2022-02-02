@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "Libre Caslon Display";
+  src: url(../font/LibreCaslonDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../font/OpenSans-Regular.ttf);
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-family: "Libre Caslon Display";
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer a {
+  font-weight: 900;
+}
+
+h1 {
+  font-family: "Libre Caslon Display";
+}
+
+h2 {
+  font-family: "Libre Caslon Display";
+}
+
+p {
+  font-family: "Open Sans";
+}
+
+h3 {
+  font-family: "Libre Caslon Display";
+}
+
+header h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+}
+header nav ul li {
+  list-style: none;
+  margin-left: 2%;
+  font-size: 1.2rem;
+}
+
+main .center {
+  text-align: center;
+}
+main .center p {
+  padding: 0 23%;
+}
+main .center img {
+  width: 55%;
+}
+main h2 {
+  text-align: center;
+}
+
+main .flex {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+main .flex p {
+  padding: 0 20% 5% 20%;
+}
+main div button {
+  background-color: #060606;
+  color: white;
+  margin-bottom: 5%;
+  padding: 1% 20%;
+}
+main div button:hover {
+  background-color: white;
+  color: black;
+}
+main .but {
+  text-align: center;
+}
+main .ing div {
+  text-align: center;
+}
+main .ing div img {
+  width: 70%;
+  margin-bottom: 5%;
+}
+main .longP {
+  padding: 0 15%;
+}
+
+footer nav ul {
+  display: flex;
+  margin-top: 5%;
+}
+footer nav ul footer nav {
+  background-color: #e06464;
+}
+footer nav ul li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+footer nav ul li:nth-of-type(1) {
+  margin: 0 15% 0 15%;
+}
+footer nav ul li:nth-of-type(2) {
+  margin: 0 5% 0 0%;
+}/*# sourceMappingURL=main.css.map */
